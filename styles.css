@@ -14,6 +14,7 @@ body {
 .logo-container {
   margin-bottom: 30px;
 }
+
 .logo {
   width: 300px;
   height: auto;
@@ -34,21 +35,27 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 15px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 12px;
-  text-decoration: none;
-  color: #000;
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #111;
   font-weight: 500;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  text-decoration: none;
+
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
   transition: all 0.3s ease;
 }
+
 .glass-button:hover {
-  background: rgba(255, 255, 255, 0.35);
-  transform: translateY(-2px);
+  transform: scale(1.03);
+  background: rgba(255, 255, 255, 0.4);
 }
+
 
 /* Ícono de botón */
 .glass-button i {
