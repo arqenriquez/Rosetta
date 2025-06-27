@@ -1,0 +1,71 @@
+/* Importa fuente moderna */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f0f0f0;
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Logo */
+.logo-container {
+  margin-bottom: 30px;
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Contenedor principal */
+.links-container {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Botones estilo cristal */
+.glass-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+.glass-button:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Ícono de botón */
+.glass-button i {
+  font-size: 1.2em;
+}
+
+/* Sección de contacto */
+.contact {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Responsivo */
+@media (max-width: 500px) {
+  .glass-button {
+    font-size: 1em;
+    padding: 12px;
+  }
+}
